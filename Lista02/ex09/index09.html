@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 09 lista 2</title>
+    <script src="index09.js"></script>
+    <style>
+        form{
+            padding: 0;
+            align-items: center;
+            justify-content:center ;
+            display:flex ;
+            flex-direction:column ;
+        }
+    </style>
+</head>
+<body>
+    <p>Algoritmo que que calcula o valor de uma prestação em atraso</p>
+
+    <form action="">
+        <label for="ValorInicial">Valor da prestação inicial</label>
+        <input type="text" id="ValorInicial">
+        <label for="Tempo">Tempo de atraso (em meses)</label>
+        <input type="text" id="Tempo">
+        <label for="Taxa">Valor da taxa</label>
+        <input type="text" id="Taxa">
+        <input type="button" value="Calcular" onclick="calc()">
+    </form>
+
+</body>
+</html>

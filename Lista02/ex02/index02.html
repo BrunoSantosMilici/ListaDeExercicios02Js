@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 02 lista 2</title>
+    <script src="index02.js"></script>
+    <style>
+        form{
+            padding: 0;
+            align-items: center;
+            justify-content:center ;
+            display:flex ;
+            flex-direction:column ;
+        }
+    </style>
+</head>
+<body>
+   <p>Escreva um algoritmo para ler o número total de eleitores de um município, o número de votos brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total de eleitores.</p> 
+   <form action="">
+    <label for="eleitorado">Número total de eleitores de um município</label>
+    <input type="text" id="eleitores">
+    <label for="brancos">Quantidade de votos brancos</label>
+    <input type="text" id="brancos">
+    <label for="nulos">Quantidade de votos nulos</label>
+    <input type="text" id="nulos">
+    <label for="validos">Quantidade de votos válidos</label>
+    <input type="text" id="validos">
+    <br>
+    <input type="button" value="Ver porcentagens da eleição" onclick="calc()">
+   </form>
+
+
+</body>
+</html>
